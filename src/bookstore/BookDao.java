@@ -135,7 +135,7 @@ public class BookDao {
 		
 		resultSet.close();
 		statement.close();
-		
+		disconnect();
 		return book;
 	}
 	
